@@ -22,8 +22,6 @@ const renameMp3ToFlac = (filePath) => filePath.replace(/\.[^/.]+$/, '.flac');
 const hasNoCorrespondingMp3File = (filePath) => !fs.existsSync(path.join(DESTINATION_DIR, renameFlacToMp3(filePath)));
 const hasNoCorrespondingFlacFile = (filePath) => !fs.existsSync(path.join(SOURCE_DIR, renameMp3ToFlac(filePath)));
 
-const minus = (a, b) => a.filter((i) => b.indexOf(i) < 0);
-
 
 /**
  * syncs the given folder
