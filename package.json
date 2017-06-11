@@ -1,0 +1,19 @@
+{
+  "name": "deflac",
+  "version": "0.1.0",
+  "description": "Syncs music folder and converts FLAC to MP3. Useful to update thumb drives used in devices that don't support FLAC files, like car audios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayaabkhan/deflac.git"
+  },
+  "author": "Nayaabkhan <khannayaab@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nayaabkhan/deflac/issues"
+  },
+  "homepage": "https://github.com/nayaabkhan/deflac#readme"
+}
