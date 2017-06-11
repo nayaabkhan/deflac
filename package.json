@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nayaabkhan/deflac/issues"
   },
-  "homepage": "https://github.com/nayaabkhan/deflac#readme"
+  "homepage": "https://github.com/nayaabkhan/deflac#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "rimraf": "^2.6.1"
+  }
 }
